@@ -1,0 +1,77 @@
+body {
+  font: 16px arial;
+  margin: 0;
+  padding: 0;
+  background: #F4C2C2
+}
+
+#header {
+ text-align: center;
+  background-color: #E0AB98;
+  padding: 30px;
+}
+
+#header h1 {
+  color: #fff;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10;
+}
+
+#wrapper {
+  width: 500px;
+  margin: 50px auto 0;
+  background-color: #fff;
+}
+
+#page-wrap {
+  padding: 25px;
+  min-height: 100px;
+}
+
+#page-wrap .post-form {
+  width: 100%;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #F8E4DF
+  border-radius: 15px;
+}
+
+#page-wrap .post-form .form-group {
+  margin: 10px 0 10px;
+}
+
+#page-wrap .post-form .form-group label {
+  width: 30%;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#page-wrap .post-form .form-group input,
+#page-wrap .post-form .form-group select {
+  font-size: 16px;
+  width: 66%;
+  display: inline-block;
+  padding: 5px;
+  margin: 0;
+}
+
+#page-wrap .post-form .submit {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 5px 30px;
+  color: #333;
+  background-color: #F8F8F8
+  border: none;
+  border-radius: 5px;
+  margin: 0 0 20px 30%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#page-wrap .post-form .submit:hover {
+  box-shadow: 0 0 5px #555;
+}
